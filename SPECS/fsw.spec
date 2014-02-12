@@ -22,7 +22,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %post
 # ensure compatibility with FSW
-echo "layers=bpms,soa" > /opt/jboss_bpm_soa/jboss-eap-6.1/modules/layers.conf
+echo "layers=bpms,soa,sramp" > /opt/jboss_bpm_soa/jboss-eap-6.1/modules/layers.conf
 
 %files
 /opt/jboss_bpm_soa/jboss-eap-6.1/*
