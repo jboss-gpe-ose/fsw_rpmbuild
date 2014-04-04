@@ -10,8 +10,8 @@
 ** zip and copy FSW modules and web archives to SOURCES directory
 * cd /path/to/this/fsw_rpmbuild
 * rpmbuild --define "_sourcedir `pwd`/SOURCES" -ba SPECS/fsw.spec
-* rpm -qlp ~/rpmbuild/RPMS/x86_64/fsw-6.0.0-1.el6.x86_64.rpm
-* sudo rpm -ivh ~/rpmbuild/RPMS/x86_64/fsw-6.0.0-1.el6.x86_64.rpm
+* rpm -qlp ~/rpmbuild/RPMS/x86_64/fsw-6.0.0-3.el6.x86_64.rpm
+* sudo rpm -ivh ~/rpmbuild/RPMS/x86_64/fsw-6.0.0-3.el6.x86_64.rpm
     
 * sudo rpm -e fsw
 

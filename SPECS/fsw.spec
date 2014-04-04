@@ -1,6 +1,6 @@
 Name:           fsw
 Version:        6.0.0
-Release:        1%{?dist}
+Release:        3%{?dist}
 Summary:        Red Hat JBoss Fuse Service Works (FSW)
 Group:          Red Hat JBoss
 License:        GPLv3+
