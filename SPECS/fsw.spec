@@ -22,8 +22,8 @@ unzip %{SOURCE1} -d $RPM_BUILD_ROOT/opt/jboss_bpm_soa/jboss-eap-6.1/standalone/d
 rm -rf $RPM_BUILD_ROOT
 
 %post
-# ensure compatibility with FSW
-echo "layers=bpms,soa,sramp" > /opt/jboss_bpm_soa/jboss-eap-6.1/modules/layers.conf
+# module paths to soa and sramp will be set by cartridges
+echo "layers=base" > /opt/jboss_bpm_soa/jboss-eap-6.1/modules/layers.conf
 
 %files
 /opt/jboss_bpm_soa/jboss-eap-6.1/*
